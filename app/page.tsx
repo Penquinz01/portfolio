@@ -10,64 +10,64 @@ export default function Home() {
   const gameProjects = [
     {
       id: 1,
-      title: "Neon Drift",
-      description: "A cyberpunk racing game with procedurally generated tracks",
+      title: "Bortal",
+      description: "A game about bubble portals and bubble guns",
       images: [
-        "/placeholder.svg?height=300&width=500",
-        "/placeholder.svg?height=300&width=500",
-        "/placeholder.svg?height=300&width=500",
+        "/bortal1.png?height=300&width=500",
+        // "/placeholder.svg?height=300&width=500",
+        // "/placeholder.svg?height=300&width=500",
       ],
-      githubUrl: "https://github.com/yourusername/neon-drift",
-      tags: ["Unity", "C#", "Procedural Generation"],
+      githubUrl: "https://github.com/Penquinz01/Bortal",
+      tags: ["Unity", "C#", "Puzzle","Platformer"],
       isWip: false,
     },
     {
       id: 2,
-      title: "Cyber Heist",
-      description: "A stealth game set in a dystopian future",
+      title: "Heom",
+      description: "A game about colours,puzzles and platforming",
       images: [
-        "/placeholder.svg?height=300&width=500",
-        "/placeholder.svg?height=300&width=500",
-        "/placeholder.svg?height=300&width=500",
+        "/heom1.png?height=300&width=500",
+        "/heom2.png?height=300&width=500",
+        // "/placeholder.svg?height=300&width=500",
       ],
-      githubUrl: "https://github.com/yourusername/cyber-heist",
-      tags: ["Unreal Engine", "C++", "AI"],
-      isWip: true,
+      githubUrl: "https://github.com/Penquinz01/Heom",
+      tags: ["Unity", "C#", "2D","Puzzle","Hack and Slash"],
+      isWip: false,
     },
     {
       id: 3,
-      title: "Neural Nexus",
-      description: "A puzzle game about connecting neural networks",
+      title: "Untitled 1500s Game",
+      description: "A game about a swordsman in the 1500s",
       images: [
         "/placeholder.svg?height=300&width=500",
         "/placeholder.svg?height=300&width=500",
         "/placeholder.svg?height=300&width=500",
       ],
-      githubUrl: "https://github.com/yourusername/neural-nexus",
-      tags: ["Godot", "GDScript", "Puzzle"],
-      isWip: false,
+      githubUrl: "https://github.com/Penquinz01/Project-Sword",
+      tags: ["Unity", "C#", "3D","Medieval"],
+      isWip: true,
     },
   ]
 
   const otherProjects = [
     {
       id: 1,
-      title: "Data Visualizer",
-      githubUrl: "https://github.com/yourusername/data-visualizer",
-      description: "Interactive data visualization tool",
+      title: "Enhanced Game Controller",
+      githubUrl: "https://github.com/Penquinz01/DSolve-2025",
+      description: "Control gams with your head movement and voice",
     },
-    {
-      id: 2,
-      title: "AI Chat Assistant",
-      githubUrl: "https://github.com/yourusername/ai-chat",
-      description: "Conversational AI using transformer models",
-    },
-    {
-      id: 3,
-      title: "Blockchain Explorer",
-      githubUrl: "https://github.com/yourusername/blockchain-explorer",
-      description: "Tool for visualizing blockchain transactions",
-    },
+    // {
+    //   id: 2,
+    //   title: "AI Chat Assistant",
+    //   githubUrl: "https://github.com/yourusername/ai-chat",
+    //   description: "Conversational AI using transformer models",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Blockchain Explorer",
+    //   githubUrl: "https://github.com/yourusername/blockchain-explorer",
+    //   description: "Tool for visualizing blockchain transactions",
+    // },
   ]
 
   const certificates = [
@@ -76,22 +76,22 @@ export default function Home() {
       title: "Machine Learning Specialization",
       issuer: "Coursera",
       date: "2023",
-      url: "https://coursera.org/verify/specialization/ABCDEF123456",
+      url: "https://coursera.org/share/7f44a632a88e646a2041234d7e9afca1",
     },
-    {
-      id: 2,
-      title: "Game Design and Development",
-      issuer: "Coursera",
-      date: "2022",
-      url: "https://coursera.org/verify/specialization/GHIJKL789012",
-    },
-    {
-      id: 3,
-      title: "Full-Stack Web Development",
-      issuer: "Coursera",
-      date: "2021",
-      url: "https://coursera.org/verify/specialization/MNOPQR345678",
-    },
+    // {
+    //   id: 2,
+    //   title: "Game Design and Development",
+    //   issuer: "Coursera",
+    //   date: "2022",
+    //   url: "https://coursera.org/verify/specialization/GHIJKL789012",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Full-Stack Web Development",
+    //   issuer: "Coursera",
+    //   date: "2021",
+    //   url: "https://coursera.org/verify/specialization/MNOPQR345678",
+    // },
   ]
 
   return (
@@ -101,12 +101,12 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(67,12,123,0.15),transparent_70%)]"></div>
         <div className="z-10 text-center max-w-3xl mx-auto space-y-6 animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter">
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400">YOUR NAME</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-cyan-400">JANBAAS JAMAL K K</span>
           </h1>
-          <h2 className="text-2xl md:text-3xl font-medium text-cyan-400">Game Developer & Software Engineer</h2>
+          <h2 className="text-2xl md:text-3xl font-medium text-cyan-400">Game Developer & Machine Learning Developer</h2>
           <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto">
-            Building digital worlds and interactive experiences. Specializing in game development, web applications, and
-            creative coding.
+            Computer Science studnet at College of Engineering, Trivandrum. Passionate about game development and machine learning.
+            I love creating immersive experiences and exploring the intersection of technology and creativity.
           </p>
           <div className="flex justify-center gap-4 pt-4">
             <Button variant="outline" className="border-pink-500 text-pink-500 hover:bg-pink-950 hover:text-pink-300">
@@ -218,7 +218,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-cyan-400 transition-colors"
                 >
-                  github.com/yourusername
+                  github.com/Penquinz01
                 </Link>
               </div>
               <div className="flex items-center gap-4">
@@ -229,7 +229,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-pink-500 transition-colors"
                 >
-                  linkedin.com/in/yourusername
+                  www.linkedin.com/in/janbaas-jamal-372009326
                 </Link>
               </div>
               <div className="flex items-center gap-4">
@@ -238,18 +238,18 @@ export default function Home() {
                   href="mailto:your.email@example.com"
                   className="text-gray-300 hover:text-purple-400 transition-colors"
                 >
-                  your.email@example.com
+                  janbaasjamal2@gmailcom
                 </Link>
               </div>
             </div>
             <div className="bg-gray-900/50 p-6 rounded-lg border border-gray-800 shadow-[0_0_15px_rgba(139,92,246,0.15)]">
               <h3 className="text-xl font-medium mb-4 text-cyan-400">About Me</h3>
               <p className="text-gray-300 mb-4">
-                Game developer and software engineer with a passion for creating immersive digital experiences.
-                Specialized in Unity, Unreal Engine, and web technologies.
+                Game developer and Machine Learning Enthusiast with a passion for creating immersive digital experiences.
+                Specialized in Unity, Java,C#,Python and some web stacks.
               </p>
               <p className="text-gray-300">
-                Currently based in [Your Location]. Open to freelance opportunities, collaborations, and full-time
+                Currently based in Trivandrum. Open to freelance opportunities, collaborations, and full-time
                 positions.
               </p>
             </div>
@@ -260,7 +260,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="py-6 px-4 border-t border-gray-800">
         <div className="max-w-6xl mx-auto text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Janbaas Jamal. All rights reserved.</p>
           <p className="mt-2">Built with Next.js and TailwindCSS</p>
         </div>
       </footer>
