@@ -7,7 +7,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your Name | Game Developer & Software Engineer",
+  title: "Janbaas Jamal K K | Game Developer & Software Engineer",
   description: "Personal portfolio showcasing game development and software engineering projects",
     generator: 'v0.dev'
 }
