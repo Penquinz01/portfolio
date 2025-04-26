@@ -39,9 +39,9 @@ export default function Home() {
       title: "Untitled 1500s Game",
       description: "A game about a swordsman in the 1500s",
       images: [
-        "/placeholder.svg?height=300&width=500",
-        "/placeholder.svg?height=300&width=500",
-        "/placeholder.svg?height=300&width=500",
+        "/win.png?height=300&width=500",
+        // "/placeholder.svg?height=300&width=500",
+        // "/placeholder.svg?height=300&width=500",
       ],
       githubUrl: "https://github.com/Penquinz01/Project-Sword",
       tags: ["Unity", "C#", "3D","Medieval"],
@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center gap-6 pt-8">
             <Link
-              href="https://github.com/yourusername"
+              href="https://github.com/Penquinz01"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-cyan-400 transition-colors"
@@ -131,7 +131,7 @@ export default function Home() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link
-              href="https://linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/janbaas-jamal-372009326/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-pink-500 transition-colors"
