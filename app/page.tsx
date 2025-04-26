@@ -213,7 +213,7 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <Github className="w-6 h-6 text-cyan-400" />
                 <Link
-                  href="https://github.com/yourusername"
+                  href="github.com/Penquinz01"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-cyan-400 transition-colors"
@@ -224,12 +224,12 @@ export default function Home() {
               <div className="flex items-center gap-4">
                 <Linkedin className="w-6 h-6 text-pink-500" />
                 <Link
-                  href="https://linkedin.com/in/yourusername"
+                  href="www.linkedin.com/in/janbaas-jamal-372009326"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-300 hover:text-pink-500 transition-colors"
                 >
-                  www.linkedin.com/in/janbaas-jamal-372009326
+                  linkedin.com/Janbaas Jamal
                 </Link>
               </div>
               <div className="flex items-center gap-4">
