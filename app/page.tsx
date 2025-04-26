@@ -39,7 +39,7 @@ export default function Home() {
       title: "Untitled 1500s Game",
       description: "A game about a swordsman in the 1500s",
       images: [
-        "/win.png?height=300&width=500",
+        "/wip.png?height=300&width=500",
         // "/placeholder.svg?height=300&width=500",
         // "/placeholder.svg?height=300&width=500",
       ],
