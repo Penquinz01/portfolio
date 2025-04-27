@@ -17,7 +17,7 @@ export default function Home() {
     },
     {
       category: "Java",
-      items: ["Swing","Java"]
+      items: ["Swing","Java","OOP"]
     },
     {
       category: "C",
