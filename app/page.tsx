@@ -6,6 +6,41 @@ import CertificateItem from "@/components/certificate-item"
 import { Button } from "@/components/ui/button"
 
 export default function Home() {
+  const skills = [
+    {
+      category: "Game Development",
+      items: ["Unity", "C#", "Game Design", "Level Design", "3D Modeling"]
+    },
+    {
+      category: "Machine Learning",
+      items: ["Python","PyTorch", "OpenCV"]
+    },
+    {
+      category: "Java",
+      items: ["Swing","Java"]
+    },
+    {
+      category: "C",
+      items: ["C", "DSA"]
+    }
+  ]
+  
+  const experiences = [
+    {
+      title: "Glitch Club Chaiperson",
+      company: "Glitch",
+      period: "2025 - Present",
+      description: "Chairperson of the Glitch Club CET,CET's official game development club",
+      technologies: ["Unity", "C#", "Game Design"]
+    },
+    {
+      title: "Member of Tinkerhub",
+      company: "College of Engineering Trivandrum",
+      period: "2024 - Present",
+      description: "Been a member of Tinkerhub, a community of tech enthusiasts and developers",
+      technologies: ["Python", "Pytorch", "OpenCV"]
+    }
+  ]
   // Sample data - replace with your actual information
   const gameProjects = [
     {
@@ -145,6 +180,69 @@ export default function Home() {
           <svg className="w-6 h-6 text-cyan-400" fill="none" strokeWidth="2" viewBox="0 0 24 24" stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
           </svg>
+        </div>
+      </section>
+      <section id="skills" className="py-20 px-4 bg-black/50 relative">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(123,67,12,0.15),transparent_70%)]"></div>
+        <div className="max-w-6xl mx-auto z-10 relative">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-red-500">
+              Skills
+            </span>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {skills.map((skillSet, index) => (
+              <div key={index} className="bg-gray-900/50 p-6 rounded-lg border border-gray-800">
+                <h3 className="text-xl font-medium mb-4 text-cyan-400">{skillSet.category}</h3>
+                <div className="flex flex-wrap gap-2">
+                  {skillSet.items.map((skill, skillIndex) => (
+                    <span
+                      key={skillIndex}
+                      className="px-3 py-1 bg-gray-800/50 rounded-full text-sm text-gray-300"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      {/* Experience Section */}
+      <section id="experience" className="py-20 px-4 relative">
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(12,123,67,0.15),transparent_70%)]"></div>
+        <div className="max-w-4xl mx-auto z-10 relative">
+          <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-500">
+              Experience
+            </span>
+          </h2>
+          <div className="space-y-8">
+            {experiences.map((exp, index) => (
+              <div
+                key={index}
+                className="bg-gray-900/50 p-6 rounded-lg border border-gray-800 hover:border-purple-500/50 transition-colors"
+              >
+                <div className="flex justify-between items-start mb-2">
+                  <h3 className="text-xl font-medium text-cyan-400">{exp.title}</h3>
+                  <span className="text-gray-400 text-sm">{exp.period}</span>
+                </div>
+                <p className="text-pink-500 mb-3">{exp.company}</p>
+                <p className="text-gray-300 mb-4">{exp.description}</p>
+                <div className="flex flex-wrap gap-2">
+                  {exp.technologies.map((tech, techIndex) => (
+                    <span
+                      key={techIndex}
+                      className="px-3 py-1 bg-gray-800/50 rounded-full text-sm text-gray-300"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       </section>
 
