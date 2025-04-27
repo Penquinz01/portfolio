@@ -247,7 +247,7 @@ export default function Home() {
       </section>
 
       {/* Game Projects Section */}
-      <section id="game-projects" className="py-20 px-4 relative">
+      <section id="projects" className="py-20 px-4 relative">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(12,67,123,0.15),transparent_70%)]"></div>
         <div className="max-w-6xl mx-auto z-10 relative">
           <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
